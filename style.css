@@ -13,7 +13,7 @@ body{
 
 .body-index {
     margin:0;
-    background-color:bisque;
+
     background:size 100px ;
 }
 
@@ -79,8 +79,7 @@ A{
 
 .b-about{
     margin:0;
-    background-color:bisque;
-    background-image:url(/assets/css/img/fondo.jpg);
+   
 }
 
 
@@ -146,7 +145,7 @@ A{
 
 .body-contact {
         margin:0;
-        background-color:bisque;
+    
         background:size 100px ;
     
 }
@@ -189,7 +188,7 @@ A{
   /*  */
   .body-productos {
     margin:0;
-    background-color:bisque;
+
     background:size 100px;
     overflow: auto;
 }
