@@ -2,6 +2,8 @@
 body{
     min-height: 100vh;
     padding: 2em;
+    background-image:url(./assets/img/fondo.jpg);
+
 }
 
 /* index.html */
@@ -12,7 +14,6 @@ body{
 .body-index {
     margin:0;
     background-color:bisque;
-    background-image:url(./assets/img/fondo.jpg);
     background:size 100px ;
 }
 
@@ -146,7 +147,6 @@ A{
 .body-contact {
         margin:0;
         background-color:bisque;
-        background-image:url(/assets/css/img/fondo.jpg);
         background:size 100px ;
     
 }
@@ -190,7 +190,6 @@ A{
   .body-productos {
     margin:0;
     background-color:bisque;
-    background-image:url(/assets/css/img/fondo.jpg);
     background:size 100px;
     overflow: auto;
 }
