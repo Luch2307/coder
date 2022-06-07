@@ -1,0 +1,320 @@
+
+body{
+    min-height: 100vh;
+    padding: 2em;
+}
+
+/* index.html */
+
+*{   box-sizing: border-box
+}
+
+.body-index {
+    margin:0;
+    background-color:bisque;
+    background-image:url(/assets/css/img/fondo.jpg);
+    background:size 100px ;
+}
+
+
+ 
+
+.cafe{
+    width: 5em;
+    border: 5px solid red;
+    border-radius: 100% ;
+    padding: 1em;
+    background-color: bisque;
+}
+
+.header-index{
+  
+    background-color:bisque;
+
+}
+    
+
+   
+
+.H{
+    padding:0 2em;
+    /* margin: 1em; */
+    display: flex;
+    border-bottom: 1px solid red;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.45);
+    background-color:bisque;
+
+}
+
+.ul-index{
+    display:flex;
+    gap:2em;
+    list-style:none;
+    border: 5px solid brown ;
+    background-color:bisque;
+
+}
+
+A{
+    text-decoration:none;
+    color: bisque;
+   
+}
+
+.indexx{
+    background-color:bisque;
+
+}
+
+.h-index{
+
+    border-bottom: 2px solid red;
+
+}
+
+/* about */
+
+
+
+.b-about{
+    margin:0;
+    background-color:bisque;
+    background-image:url(/assets/css/img/fondo.jpg);
+}
+
+
+.h2-about{
+    border-bottom: 3px solid brown;
+    margin: 0%;
+    /* margin-bottom: 1em ; */
+}
+
+.article-about{
+    padding: 1em;
+    /* border: 3px solid brown; */
+    /* margin-bottom: 1em ; */
+ 
+}
+
+
+ 
+
+.cafe-about{
+    width: 5em;
+    border: 5px solid red;
+    border-radius: 100% ;
+    padding: 1em;
+    background-color: bisque;
+}
+
+.header-about{
+    padding: 0.5em;}
+   
+
+.H-about{
+    padding:0 2em;
+    margin: 1em;
+    display: flex;
+    border-bottom: 1px solid red;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.45);
+}
+
+.ul-about{
+    display:flex;
+    gap:2em;
+    list-style:none;
+    border: 5px solid brown ;
+    background-color:bisque;
+}
+
+A{
+    text-decoration:none;
+    color: brown;
+}
+
+.s-about{
+    background-color: bisque;
+    border: 3px solid brown; 
+
+}
+
+/* contact*/
+
+
+
+
+.body-contact {
+        margin:0;
+        background-color:bisque;
+        background-image:url(/assets/css/img/fondo.jpg);
+        background:size 100px ;
+    
+}
+
+
+ 
+
+.cafe-c{
+    width: 5em;
+    border: 5px solid red;
+    border-radius: 100% ;
+    padding: 1em;
+    background-color: bisque;
+}
+
+.header-contact{
+    padding: 0.5em;}
+   
+
+
+.ul-contact{
+    display:flex;
+    gap:2em;
+    list-style:none;
+    border: 5px solid brown ;
+    background-color:bisque;
+}
+
+A{
+    text-decoration:none;
+    color: brown;
+}
+
+.c-contact{
+    background-color: bisque;
+}
+
+/** productos */
+
+  /*  */
+  .body-productos {
+    margin:0;
+    background-color:bisque;
+    background-image:url(/assets/css/img/fondo.jpg);
+    background:size 100px;
+    overflow: auto;
+}
+/*? swipper */
+.section-slider{
+position: relative;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: brown ; 
+height: 100vh;
+/* width: 120vw; */
+}
+.swiper {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    /* left: 50%; */
+    /* top: 50%; */
+    margin-left: -150px;
+    margin-top: -150px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  } 
+/* 
+
+
+  */
+
+  .ul-productos{
+    display:flex;
+    gap:2em;
+    list-style:none;
+    border: 5px solid brown ;
+    background-color:bisque;
+}
+
+
+
+ 
+
+.cafe-p{
+    width: 5em;
+    border: 5px solid red;
+    border-radius: 100% ;
+    padding: 1em;
+}
+
+.header-p{
+    padding: 0.5em;}
+   
+
+.H{
+   
+    display: flex;
+    border-bottom: 1px solid red;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.45);
+}
+
+
+
+
+
+
+.head-p{
+    text-align: center;
+}
+
+
+.section-p{
+    display:flex;
+    gap:2em;
+    list-style:none;
+
+
+}
+
+.p-productos{
+    background-color: bisque;
+}
+
+.arabico{
+    width: 25em;
+    border: 2px solid burlywood;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    ;
+}
+
+
+.colombia{
+    width: 25em;
+    border: 2px solid burlywood;
+    box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+
+.ecuador{
+    width: 25em;
+    border: 2px solid burlywood;
+    box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.h3-productoss{
+   color: aliceblue;
+     
+}
+
+.h3-productos{
+    color: aliceblue;
+}
+
+.p-productos{
+    padding: 1em;
+    border: 1px solid  red;
+    margin-bottom: 1em;
+}
+
