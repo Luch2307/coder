@@ -12,7 +12,7 @@ body{
 .body-index {
     margin:0;
     background-color:bisque;
-    background-image:url(/assets/css/img/fondo.jpg);
+    background-image:url(./assets/img/fondo.jpg);
     background:size 100px ;
 }
 
