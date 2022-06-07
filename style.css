@@ -22,7 +22,7 @@ body{
 
 .cafe{
     width: 5em;
-    border: 5px solid red;
+    border: 5px solid brown;
     border-radius: 100% ;
     padding: 1em;
     background-color: bisque;
@@ -64,6 +64,9 @@ A{
 
 .indexx{
     background-color:bisque;
+    padding: 1em;
+    border: 3px solid brown; 
+
 
 }
 
@@ -99,13 +102,6 @@ A{
 
  
 
-.cafe-about{
-    width: 5em;
-    border: 5px solid red;
-    border-radius: 100% ;
-    padding: 1em;
-    background-color: bisque;
-}
 
 .header-about{
     padding: 0.5em;}
@@ -153,13 +149,6 @@ A{
 
  
 
-.cafe-c{
-    width: 5em;
-    border: 5px solid red;
-    border-radius: 100% ;
-    padding: 1em;
-    background-color: bisque;
-}
 
 .header-contact{
     padding: 0.5em;}
@@ -182,6 +171,13 @@ A{
 .c-contact{
     background-color: bisque;
     padding: 2em;
+    border: 3px solid brown; 
+
+}
+
+.sumbit{
+    display: block;
+    align-items: center;
 }
 
 /** productos */
@@ -200,8 +196,11 @@ width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
-background-color: brown ; 
+background: rgb(255,200,122);
+background: linear-gradient(90deg, rgba(255,200,122,1) 4%, rgba(205,111,32,1) 45%, rgba(113,82,26,1) 94%);
 height: 100vh;
+border: 3px solid brown ;
+
 /* width: 120vw; */
 }
 .swiper {
@@ -222,6 +221,8 @@ height: 100vh;
     display: block;
     width: 100%;
   } 
+
+
 /* 
 
 
@@ -239,12 +240,6 @@ height: 100vh;
 
  
 
-.cafe-p{
-    width: 5em;
-    border: 5px solid red;
-    border-radius: 100% ;
-    padding: 1em;
-}
 
 .header-p{
     padding: 0.5em;}
@@ -313,7 +308,11 @@ height: 100vh;
 
 .p-productos{
     padding: 1em;
-    border: 1px solid  red;
+    border: 3px solid brown; 
     margin-bottom: 1em;
+}
+nav{
+ 
+
 }
 
