@@ -27,14 +27,16 @@ header,main,footer
 body{
     min-height: 100vh;
     padding: 2em;
-    background-image:url("../assets/img/fondo.jpg");
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.9212417388830532) 55%, rgba(121,76,2,1) 100%); ; 
     margin:0;
     background-size: 100px ;
     overflow: auto;
+    font-family:'Roboto', sans-serif;
+    font-size: 1em;
 }
 
 
-/* index.html estilos generales*/
 
 *{ 
     box-sizing: border-box
@@ -42,9 +44,11 @@ body{
 
 .cafe-logo{
     max-width: 5em;
-    border: 5px solid brown;
     border-radius: 100% ;
     padding: 1em;
+    background-color: bisque;
+}
+.nav{
     background-color: bisque;
 }
 
@@ -52,10 +56,11 @@ body{
     display:flex;
     gap:2em;
     list-style:none;
-    border: 5px solid brown ;
-    background-color:bisque;
     flex-wrap: wrap;
-    max-width: 50em;
+    max-width: 100%;
+    padding-top: 2em;
+
+
 }
 @media screen and (max-width: 640px) {
     .ul {
@@ -71,7 +76,16 @@ A{
     color: bisque;
     font-size: 1.5em;
 }
-
+.parrafo-index{
+    color: aliceblue;
+    display: flex;
+}
+@media screen and (min-width: 1200px) {
+    .parrafo-index {
+        grid-template-columns: auto;
+        grid-template-rows: 1fr;
+    }
+    }
 .p-index{
     font-size: 1.5em;
 }
@@ -82,13 +96,14 @@ A{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 22px 12px;
     grid-auto-flow: row;
     animation-name: articleanimation;
     animation-duration: 2s;
     animation-timing-function: linear;
     overflow: hidden;  
     object-fit: contain;
+    position:relative;
+
 }
 
 @keyframes articleanimation{
@@ -114,7 +129,6 @@ A{
 }
 img{
     object-fit: cover;
-    border: 2px solid red ;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
@@ -130,10 +144,8 @@ img{
         display: flex;
         flex-direction: column;
         align-items: center;
+        }
     }
-    }
-    
-        
     
     /* tablet */
     
@@ -170,13 +182,13 @@ img{
     
     @media screen and (min-width: 1200px) {
     img{
-        width: 45em;
+        width: 30em;
         object-fit: cover;
     }
     .index-img-grid-1 {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        gap: 22px 12px;
+        gap: 3em 12px;
     }
     .grid-1-2 { 
         grid-area: 2 / 1 / 3 / 2; 
@@ -198,20 +210,15 @@ img{
     
 /* Sections-index */
 
-.header-index{
-    background-color:bisque;
-}
 .article-index{
-    border: 2px solid red;
     padding: 1em;
     margin: 2em;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    color:antiquewhite;
 }
 .index-main{
-    background-color:bisque;
     padding: 1em;
-    border: 3px solid brown; 
 }
 
 .footer-index{
@@ -222,7 +229,7 @@ img{
     border: 3px solid brown;
     margin: 1em; 
 }
-/* about fenerales*/
+/* about generales*/
 
 .body-about{
     margin:0;
@@ -231,11 +238,12 @@ img{
     border-bottom: 3px solid brown;
     margin: 0%; 
     font-size: 2em;
-    padding: 1em;    
+    padding: .5em;    
 }
 A{
     text-decoration:none;
     color: brown;
+    font-size: 1.5em;
 }
 p{
     font-size: 1.5em;
@@ -250,13 +258,14 @@ p{
 .header-about{
     padding:0.2em;
     margin: 1em;
-    display: flex;
     border-bottom: 1px solid red;
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.45);
+    max-width: 1920px;
 }
 .section-about{
     background-color: bisque;
-    border: 3px solid brown; 
+    border: 3px solid brown;
+    max-width: 1920px;
 }
 
 /* contact*/
@@ -391,3 +400,11 @@ footer img{
         grid-template-rows: auto;
     }
     }
+.p-products{
+    background-color: #f4f4f4;
+    position: relative;
+    padding-top: 1.5em;
+
+}
+
+

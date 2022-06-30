@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../coder/css/style.css">
     <title>Home</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap');
+        </style>
+        
 </head>
 <body class="body-index">
-    <header class="header-c">
-        <div>
+    <header class="header-index">
+        <div class="nav">
         <img src="./assets/img/coffeecuplogoJava_5406.png" alt="logo"
         class="cafe-logo">
-        </div>
         <nav class="nav">
             <ul class="ul">
                 <li>
-                    <a href="/coder/index.html">Home</a>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./pages/productos.html">Productos</a>
                 </li>
                 <li>
                     <a href="./pages/about_us.html">About</a>
@@ -25,34 +32,29 @@
                     <a href="./pages/cotact.html">Contact</a>
                 </li>
                 <li>
-                    <a href="./pages/productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="./pages/redes.html">Redes</a>
+                    <a href="./pages/vision.html">Vision</a>
                 </li>
             </ul>
         </nav>
+        </div>
     </header>
     <main class="index-main">
         <article class="article-index">
-        <h1 class="h.index">Flat white</h1>
-        <p class="p-index">
-        Cada taza tiene personalidad diferente y un momento por  desde Flat White queremos ser partes de todos esos mundos porque no es la taza sino  el cafe lo que nos une. 
-        La base de toda taza son unos deliciosos granos.
-        </p>
+        <h1 class="h.index">Flat white,  un café que marca la diferencia </h1>
+        <button>
+            <a href="./pages/productos.html">Hace tu pedido</a>
+        </button>
     </article>
         <section class="index-img-grid-1">       
-        <div class="grid-1-1">
+            <div class="grid-1-1">
         <img id="cofe-beans" src="./assets/img/index.img/coffee-beans-g9f324b1a1_640.jpg" alt="">
         </div>
+        <div>
+            <p class="parrafo-index"> Cada taza de cafe es traida desde su cosecha, cada grano es una taza en potencia. Por eso en flat white estamos desde su cultivo hasta a cada taza en cada hogar.</p>
+        </div>
         <div class="grid-1-2">
+            <h2>flat white</h2>
         <img id="cofe-1" src="./assets/img/index.img/beverage-g8512785d5_640.jpg" alt="">
-        </div>
-        <div class="grid-1-3">
-        <img id="cofe-2" src="./assets/img/index.img/coffee-g3db2fbdeb_640.jpg" alt="">
-        </div>
-        <div class="grid-1-4">
-        <img id="cofe-3" src="./assets/img/index.img/coffee-g60c24037a_640.jpg" alt="">
         </div>
         <div class="grid-1-5">
         <img  id="cofe-3" src="./assets/img/index.img/coffee-g7a2336b8d_640.jpg" alt="">
@@ -61,5 +63,7 @@
     </main>
     <footer class="footer-index">
         Copyright © 2010-2022 Flat white Company S.L. Todos los derechos reservados.</footer>
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

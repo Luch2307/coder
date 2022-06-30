@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap');
+      </style>
     <title>Productos</title>
 </head>
 <body class="body-productos">
     <header class="productos-c">
-        <div>
+        <div class="nav">
           <img src="../assets/img/coffeecuplogoJava_5406.png" alt="logo"
           class="cafe-logo">
-        </div>
+        
         <nav class="nav">
           <ul class="ul">
             <li>
                 <a href="../index.html">Home</a>
+            </li> 
+            <li>
+                <a href="./productos.html">Productos</a>
             </li>
             <li>
                 <a href="./about_us.html">About</a>
@@ -31,13 +38,11 @@
                 <a href="./cotact.html">Contact</a>
             </li>
             <li>
-                <a href="./productos.html">Productos</a>
-            </li>
-            <li>
-              <a href="./redes.html">Redes</a>
+              <a href="./vision.html">Vision</a>
           </li>
         </ul>
         </nav>
+      </div>
     </header>
     <section class="sections-product">
           <h1 class="h1-products">Productos</h1>
@@ -53,7 +58,10 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <h3 class="h3-productos"> Arabico</h3>
-            <img class="img-products" src="../assets/img/arabico.jpg" />
+            <div>
+              <img class="img-products" src="../assets/img/arabico.jpg" />
+            </div>
+            <!-- <p class="p-products">1kg x 3000$ </p> -->
           </div>
           <div class="swiper-slide">
             <h3 class="h3-productos" >Colombian</h3>
@@ -94,5 +102,7 @@
     </script>
     <footer class="footer-index">
       Copyright © 2010-2022 Flat white Company S.L. Todos los derechos reservados.</footer>
+      <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
