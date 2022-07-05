@@ -1,0 +1,231 @@
+/* index.html */
+
+*{   box-sizing: border-box
+}
+
+body {
+    margin:0;
+    background-color:bisque;
+    background-image:url(/assets/css/img/fondo.jpg);
+    background:size 100px;%;
+}
+
+
+ 
+
+.cafe{
+    width: 5em;
+    border: 5px solid red;
+    border-radius: 100% ;
+    padding: 1em;
+    background-color: bisque;
+}
+
+header{
+    padding: 0.5em;
+    background-color:bisque;
+
+}
+    
+
+   
+
+.H{
+    padding:0 2em;
+    margin: 1em;
+    display: flex;
+    border-bottom: 1px solid red;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.45);
+    background-color:bisque;
+
+}
+
+ul{
+    display:flex;
+    gap:2em;
+    list-style:none;
+    border: 5px solid brown ;
+    background-color:bisque;
+
+}
+
+A{
+    text-decoration:none;
+    color: bisque;
+   
+
+
+}
+
+.aboutt{
+    background-color:bisque;
+
+}
+.h-about{
+
+    border-bottom: 2px solid red;
+
+}
+
+/* about */
+
+
+
+body {
+    margin:0;
+    background-color:bisque;
+    background-image:url(/assets/css/img/fondo.jpg);
+    background:size 100px;%;
+}
+
+.b-about {
+    margin:0;
+    background-color: bisque;
+
+}
+
+
+ 
+
+.cafe-about{
+    width: 5em;
+    border: 5px solid red;
+    border-radius: 100% ;
+    padding: 1em;
+}
+
+.header-about{
+    padding: 0.5em;}
+   
+
+.H-about{
+    padding:0 2em;
+    margin: 1em;
+    display: flex;
+    border-bottom: 1px solid red;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.45);
+}
+
+ul{
+    display:flex;
+    gap:2em;
+    list-style:none;
+    border: 5px solid brown ;
+}
+
+A{
+    text-decoration:none;
+    color: brown;
+}
+
+h1{
+
+}
+
+
+/* contact*/
+
+
+
+
+body {
+        margin:0;
+        background-color:bisque;
+        background-image:url(/assets/css/img/fondo.jpg);
+        background:size 100px;%;
+    
+}
+
+
+ 
+
+.cafe-c{
+    width: 5em;
+    border: 5px solid red;
+    border-radius: 100% ;
+    padding: 1em;
+}
+
+header{
+    padding: 0.5em;}
+   
+
+.H{
+    padding:0 2em;
+    margin: 1em;
+    display: flex;
+    border-bottom: 1px solid red;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.45);
+}
+
+ul{
+    display:flex;
+    gap:2em;
+    list-style:none;
+    border: 5px solid brown ;
+}
+
+A{
+    text-decoration:none;
+    color: brown;
+}
+
+h1{
+
+}
+
+
+/* productos */
+
+
+body {
+    margin:0;
+    background-color:bisque;
+    background-image:url(/assets/css/img/fondo.jpg);
+    background:size 100px;%;
+}
+
+
+ 
+
+.cafe-p{
+    width: 5em;
+    border: 5px solid red;
+    border-radius: 100% ;
+    padding: 1em;
+}
+
+.header-p{
+    padding: 0.5em;}
+   
+
+.H{
+    padding:0 2em;
+    margin: 1em;
+    display: flex;
+    border-bottom: 1px solid red;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.45);
+}
+
+ul{
+    display:flex;
+    gap:2em;
+    list-style:none;
+    border: 5px solid brown ;
+}
+
+A{
+    text-decoration:none;
+    color: brown;
+}
+
+.section-p{
+    display:flex;
+    gap:2em;
+    list-style:none;
+
+
+}
+
+
+/*  */

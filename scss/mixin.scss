@@ -1,0 +1,55 @@
+@mixin d-flex-column(){
+display: flex;
+flex-direction:column;
+justify-content: center;
+}
+
+@mixin text-aling($aling){
+    @if $aling == center {text-align: center;}
+    @else if $aling == left {text-align: left;}
+    @else if $aling == right {text-align: right;}
+}
+
+p{
+    @include text-aling(r)
+}
+// maps es para poner paletas de colores fonts, display, box shadows etc
+
+
+// Se pone las variables y para tomar las variables se pone map-get
+$bg-color:("dark":#000,"light":#fff);
+
+.clase{
+    background-color: map-get($bg-color,"dark");
+}
+
+// math
+
+.box{
+    width: ($width-2%) / 4;
+    height: $height -2vh;
+}
+
+// variables globale
+
+
+
+// condicionales
+
+icon-lang{
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+    @if $lang==es{background-image url;}
+    @else $lang==es{background-image url;}
+
+}
+
+// bucles
+
+@for $i from 1 through 6{
+    .text-#{$i}{
+        font-size:.25em *$i;
+    }
+}

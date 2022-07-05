@@ -1,0 +1,15 @@
+h1 {
+  background-color: antiquewhite;
+  color: aqua; }
+
+main {
+  background-color: aliceblue; }
+
+.nav {
+  background-color: #231c1c;
+  padding: .5em 1em;
+  display: flex;
+  align-items: center; }
+
+.link-nav {
+  color: #f4f4f4; }
