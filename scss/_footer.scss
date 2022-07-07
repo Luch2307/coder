@@ -1,8 +1,26 @@
-h1{
-    background-color: antiquewhite;
-    color: aqua;
+
+.footer-vision{
+    border-top: 2px solid $bg-primary;
+    border-bottom: 2px solid $bg-primary;
+    padding:35px;
+    margin-top: 3em;
+    .row{
+        align-items: center;
+    }
+    .col-redes{
+        display:flex;
+        justify-self: flex-end;
+        flex-grow: 0;
+        gap:.5em
+    }
+    footer svg{
+        width: 2em;
+        object-fit: cover;
+        align-items: right;
+    }
+    
+.cafe-logo{
+    background-color:$color-primary;
 }
 
-main{
-    background-color: aliceblue;
 }

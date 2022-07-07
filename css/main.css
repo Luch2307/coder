@@ -1,9 +1,21 @@
-h1 {
-  background-color: antiquewhite;
-  color: aqua; }
+.footer-vision {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 35px;
+  margin-top: 3em; }
 
-main {
-  background-color: aliceblue; }
+  .footer-vision .row {
+    align-items: center; }
+
+  .footer-vision .col-redes {
+    display: flex;
+    justify-self: flex-end;
+    flex-grow: 0;
+    gap: .5em; }
+  .footer-vision footer svg {
+    width: 2em;
+    object-fit: cover;
+    align-items: right; }
 
 .nav {
   background-color: #231c1c;
@@ -13,3 +25,14 @@ main {
 
 .link-nav {
   color: #f4f4f4; }
+
+.link-nav:hover {
+  color: #f4f4f485; }
+
+.ul {
+  display: flex;
+  gap: 2em;
+  list-style: none;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding-top: 2em; }

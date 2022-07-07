@@ -41,9 +41,8 @@ icon-lang{
     height: 50px;
     background-size: contain;
     background-position: center;
-    @if $lang==es{background-image url;}
-    @else $lang==es{background-image url;}
-
+    @if $lang==es{background-image url}
+    @else $lang==en{background-image url}
 }
 
 // bucles
