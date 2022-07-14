@@ -1,32 +1,6 @@
-/*
-
-estilos generales
-p,a,li,span{
-    font famili
-}
-h1,h2,etc{
-
-}
-a{
-
-}
-li{
-
-}
-componentes
-boton{
-
-}
-
-secciones
-header,main,footer
-
- */
-
 
 body{
     min-height: 100vh;
-    padding: 2em;
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,0.9212417388830532) 55%, rgba(121,76,2,1) 100%); ;
     margin:0;
@@ -36,56 +10,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.parrafo-index{
-    max-width: 700px;
-}
-
-*{
-    box-sizing: border-box
-}
-/* logo */
-.cafe-logo{
-    max-width: 5em;
-    border-radius: 100% ;
-    background-color: rgb(255, 255, 254);
-    padding: .8rem;
-}
-/* nav */
-.nav{
-    background-color: rgb(35, 28, 28);
-    padding: .5em 1em;
-    display: flex;
-    align-items: center;
-}
-.link-nav{
-    color: #f4f4f4;
-}
-.link-nav:hover{
-    color: #f4f4f485;
-}
-.ul{
-    display:flex;
-    gap:2em;
-    list-style:none;
-    flex-wrap: wrap;
-    max-width: 100%;
-    padding-top: 2em;
-}
-/* fin nav */
-@media screen and (max-width: 640px) {
-    .ul {
-        grid-template-columns: auto;
-        grid-template-rows: 1fr;
-        object-fit: cover;
-        list-style-type: circle;
-    }
-    }
-
 A{
     text-decoration:none;
     color: bisque;
     font-size: 1.5em;
 }
+
 .parrafo-index{
     color: aliceblue;
     display: flex;
@@ -97,12 +27,58 @@ A{
     }
     }
 
-.p-index{
-    font-size: 1.5em;
+.parrafo-index{
+    max-width: 700px;
 }
 
-/* grid del index */
+*{
+    box-sizing: border-box
+}
 
+/* logo */
+
+.cafe-logo{
+    max-width: 5em;
+    border-radius: 100% ;
+    background-color: rgb(255, 255, 254);
+    padding: .8rem;
+}
+
+/* nav */
+
+.nav{
+    background-color: rgb(35, 28, 28);
+    padding: .5em 1em;
+    display: flex;
+    align-items: center;
+}
+
+.link-nav{
+    color: #f4f4f4;
+}
+
+.link-nav:hover{
+    color: #f4f4f485;
+}
+
+.ul{
+    display:flex;
+    gap:2em;
+    list-style:none;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding-top: 2em;
+}
+
+@media screen and (max-width: 640px) {
+    .ul {
+        grid-template-columns: auto;
+        grid-template-rows: 1fr;
+        object-fit: cover;
+        list-style-type: circle;
+    }
+    }
+/* fin nav */
 
 img{
     object-fit: cover;
@@ -110,7 +86,6 @@ img{
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 /* mobile */
-
 
 @media   (min-width: 300px) {
     img{
@@ -123,6 +98,7 @@ img{
         align-items: center;
         }
     }
+
     /* laptop */
 
     @media screen and (max-width: 1200px) {
@@ -134,6 +110,11 @@ img{
         }
         }
 
+/* componentes */
+.btn-index{
+    margin: 1em;
+}
+
 
 /* Sections-index */
 
@@ -144,17 +125,9 @@ img{
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
     color:antiquewhite;
 }
+
 .index-main{
     padding: 1em;
-}
-
-.footer-index{
-    background-color: bisque;
-    color: #000000;
-    font-size: 1.3em;
-    text-align: center;
-    border: 3px solid brown;
-    margin: 1em;
 }
 
 .index-product-img{
@@ -162,14 +135,17 @@ img{
     transition:1s ease;
     opacity: 0;
 }
+
 .index-product-img.right{
     transform: translateX(400px);
 
 }
+
 .index-product-img.active{
     opacity: 1;
 transform: translateX(0);
 }
+
 @media screen and (max-width: 1200px){
     .product-info{
         flex-direction: column;
@@ -180,17 +156,24 @@ transform: translateX(0);
 .body-about{
     margin:0;
 }
+
 .h2-about{
     border-bottom: 1px solid #fff;
     margin: 0%;
-    font-size: 2em;
+    margin-top: 10px;
     padding: .5em;
+    font-size: 5rem;
+    animation-name: title-animation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
+
 A{
     text-decoration:none;
     color: brown;
     font-size: 1.5em;
 }
+
 p{
     font-size: 1.5em;
     padding: 0.5em;
@@ -201,36 +184,20 @@ p{
 .article-about{
     padding: 1em;
 }
+
 .header-about{
     margin: 1em;
     max-width: 1920px;
 }
+
 .section-about{
     color: #f4f4f4;
     max-width: 1920px;
 }
-/* video aout */
-iframe{
-    width: 1000px;
-    height: 700px;
-}
-.video-frame{
-    display: flex;
-    justify-content: center;
-}
-/* fin video */
 
 main {
     text-align: center;
     padding: 50px;
-}
-
-.h2-about {
-    margin-top: 10px;
-    font-size: 5rem;
-    animation-name: title-animation;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 }
 
 .main-about {
@@ -240,16 +207,30 @@ main {
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
+
 @keyframes paragraph-animation {
     100% {
     opacity: 1;
     }
 }
+
 @keyframes title-animation {
     100% {
     font-size: 2rem;
     }
 } 
+
+/* video aout */
+iframe{
+    width: 1000px;
+    height: 700px;
+}
+
+.video-frame{
+    display: flex;
+    justify-content: center;
+}
+/* fin video */
 
 /* sections contact */
 .section-contact{
@@ -259,22 +240,31 @@ main {
     color: #f4f4f4;
     border: 1px solid rgb(255, 250, 250);
 }
+
 form{
     font-size: 1.5em;
 }
+
 .sumbit{
     display: block;
     align-items: center;
 }
+
 .header-contact{
     padding: 0.5em;
 }
+
 /* componentes about */
 .form-check{
     max-width: 12px;
 }
 
 /* products*/
+
+.h2-products{
+    text-align: center;
+}
+
 .h3-productoss{
     color: aliceblue;
 }
@@ -283,16 +273,6 @@ form{
     padding: 1em;
     border: 3px solid brown;
     margin-bottom: 1em;
-}
-
-A{
-    text-decoration:none;
-    color: brown;
-}
-/* productos */
-
-.h1-products{
-    text-align: center;
 }
 
 /*? swipper */
@@ -307,7 +287,6 @@ A{
     text-align: center;
     font-size: 18px;
     background: #000;
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -326,6 +305,7 @@ A{
     padding-top: 1em;
     color: #f4f4f4;
 }
+
 .img-products{
     display: block;
     margin-bottom: 1em;
@@ -336,6 +316,7 @@ A{
 }
 
 /* fin swiper */
+
 /* sections products */
 .sections-product{
     color: #f4f4f4;
@@ -391,22 +372,28 @@ A{
     background: #fff;
 }
 
-/* redes */
+/* vision*/
 .h2-vision{
-    background-color: rgb(18, 17, 16);
+    border-bottom: 1px solid white ;
 }
-.paragraph-vision{
-    background-color: #000000;
-    position: flex;
+.visión-paragraph{
+    background-color: rgb(162, 170, 177);
+    text-justify: auto;
+    margin: 3em;
 }
+/* section redes */
 .article-vision{
     color: rgb(225, 224, 223) ;
-    background-image:url("../assets/img/man-2425121_1920.jpg");
+    background-image:url("../img/man-2425121_1920.jpg");
     height: 80em;
     animation-name: articleanimation;
     animation-duration: 2s;
     animation-timing-function: linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 @keyframes articleanimation{
     0%{opacity: 0;}
     100%{opacity:1 ;}
@@ -420,14 +407,15 @@ footer svg{
     width: 2em;
     object-fit: cover;
     align-items: right;
-
 }
+
 .col-redes{
     display:flex;
     justify-self: flex-end;
     flex-grow: 0;
     gap:.5em
 }
+
 .footer-vision{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
@@ -438,25 +426,43 @@ footer svg{
 .cafe-logo{
     background-color: #fff;
 }
+
 .row{
     align-items: center;
-
 }
 
-
-.loader {
-    position: fixed;
-    left: 0px;
-    top: 0px;
+/* preloader */
+.preloader{
+    background-color: #000;
+    height: 100vh;
     width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url("../assets/img/coffeecuplogoJava_5406.png") 50% 50% no-repeat rgb(11, 10, 10);
-    opacity: .8;
-    animation-duration: 3s;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    padding: .8rem;animation-name: articleanimations;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    opacity: 0;
+    pointer-events: none;
 }
-/* <script type="text/javascript">
-$(window).load(function() {
-    $(".loader").fadeOut("slow");
-});
-</script> */
+
+.cafe-logo-loader{
+    display: flex;
+    max-width: 5em;
+    border-radius: 100% ;
+    background-color: rgb(255, 255, 254);
+    padding: .8rem;animation-name: articleanimations;
+    animation-duration: 4s;
+    animation-timing-function: linear no-repeat;
+    opacity: 0;
+    pointer-events: none;
+}
+
+@keyframes articleanimations{
+    0%{opacity: 1;}
+    100%{opacity:0;}
+}
+
+/* fin preloader */
