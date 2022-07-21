@@ -1,3 +1,8 @@
+$bg-primary:white;
+$bg-secundary:black;
+$fonts-color: bisque;
+$bg-color-nav: rgb(35, 28, 28);
+
 
 .footer-vision{
     border-top: 2px solid $bg-primary;
@@ -19,8 +24,7 @@
         align-items: right;
     }
     
-.cafe-logo{
-    background-color:$color-primary;
+    .cafe-logo{
+    background-color:$bg-primary;
 }
-
 }

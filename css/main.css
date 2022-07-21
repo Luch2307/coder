@@ -1,0 +1,43 @@
+/*varaibles colore*/
+/*fuentes*/
+.footer-vision {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 35px;
+  margin-top: 3em; }
+  .footer-vision .row {
+    align-items: center; }
+  .footer-vision .col-redes {
+    display: flex;
+    justify-self: flex-end;
+    flex-grow: 0;
+    gap: .5em; }
+  .footer-vision footer svg {
+    width: 2em;
+    object-fit: cover;
+    align-items: right; }
+  .footer-vision .cafe-logo {
+    background-color: white; }
+
+.nav {
+  background-color: #231c1c;
+  padding: .5em 1em;
+  display: flex;
+  align-items: center; }
+  .nav .link-nav {
+    color: white; }
+  .nav .link-nav:hover {
+    color: #f4f4f485; }
+  .nav .ul {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding-top: 2em; }
+
+@media screen and (max-width: 640px) {
+  h1, h2, h3 {
+    font-size: 1,2em; }
+  p {
+    font-size: 1em; } }

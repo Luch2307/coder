@@ -1,54 +1,66 @@
-@mixin d-flex-column(){
-display: flex;
-flex-direction:column;
-justify-content: center;
-}
+// @mixin d-flex-column(){
+// display: flex;
+// flex-direction:column;
+// justify-content: center;
+// }
 
-@mixin text-aling($aling){
-    @if $aling == center {text-align: center;}
-    @else if $aling == left {text-align: left;}
-    @else if $aling == right {text-align: right;}
-}
+// @mixin text-aling($aling){
+//     @if $aling == center {text-align: center;}
+//     @else if $aling == left {text-align: left;}
+//     @else if $aling == right {text-align: right;}
+// }
 
-p{
-    @include text-aling(r)
-}
-// maps es para poner paletas de colores fonts, display, box shadows etc
-
-
-// Se pone las variables y para tomar las variables se pone map-get
-$bg-color:("dark":#000,"light":#fff);
-
-.clase{
-    background-color: map-get($bg-color,"dark");
-}
-
-// math
-
-.box{
-    width: ($width-2%) / 4;
-    height: $height -2vh;
-}
-
-// variables globale
+// p{
+//     @include text-aling(r)
+// }
+// // maps es para poner paletas de colores fonts, display, box shadows etc
 
 
+// // Se pone las variables y para tomar las variables se pone map-get
+// $bg-color:("dark":#000,"light":#fff);
 
-// condicionales
+// .clase{
+//     background-color: map-get($bg-color,"dark");
+// }
 
-icon-lang{
-    width: 50px;
-    height: 50px;
-    background-size: contain;
-    background-position: center;
-    @if $lang==es{background-image url}
-    @else $lang==en{background-image url}
-}
+// // math
 
-// bucles
+// .box{
+//     width: ($width-2%) / 4;
+//     height: $height -2vh;
+// }
 
-@for $i from 1 through 6{
-    .text-#{$i}{
-        font-size:.25em *$i;
-    }
-}
+// // variables globale
+
+
+
+// // condicionales
+
+// icon-lang{
+//     width: 50px;
+//     height: 50px;
+//     background-size: contain;
+//     background-position: center;
+//     @if $lang==es{background-image url}
+//     @else $lang==en{background-image url}
+// }
+
+// // bucles
+
+// @for $i from 1 through 6{
+//     .text-#{$i}{
+//         font-size:.25em *$i;
+//     }
+// }
+
+
+
+
+// @media screen and (max-width: 640px) {
+//     h1,h2,h3{
+//         font-size: 1em;
+//     }
+//     p{
+//         font-size: 1em;
+//     }
+//     }

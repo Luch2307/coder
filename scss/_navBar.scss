@@ -1,20 +1,21 @@
 .nav{
-    background-color: rgb(35, 28, 28);
+    background-color: $bg-color-nav;
     padding: .5em 1em;
     display: flex;
     align-items: center;
-}
-.link-nav{
+
+    .link-nav{
     color: $bg-primary;
 }
-.link-nav:hover{
+    .link-nav:hover{
     color: #f4f4f485;
 }
-.ul{
+    .ul{
     display:flex;
     gap:2em;
     list-style:none;
     flex-wrap: wrap;
     max-width: 100%;
     padding-top: 2em;
+}
 }
