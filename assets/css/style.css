@@ -77,7 +77,70 @@ A{
         list-style-type: circle;
     }
     }
-/* fin nav */
+    /* fin nav */
+
+    /* nav responsive */
+.toggle-button{
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45px;
+    height: 51px;
+}
+
+.toggle-button .bar{
+    height: 2em;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width:800px) {
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-links{
+        display: none;
+        width: 100%;
+        position: absolute;
+        background-color: #000;
+        top:6em;
+        right:0;
+        bottom:0;
+        right:0;
+        height: 800vh; 
+        z-index: 999;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul{
+        width: 100%; 
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .navbar-links li{
+        text-align: center;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    } 
+
+    .cafe-logo{
+        display: block;
+}
+}
+
+/* fin nav responsive */
 
 img{
     object-fit: cover;
@@ -135,15 +198,27 @@ img{
     opacity: 0;
 }
 
-.index-product-img.right{
+.index-product-img{
     transform: translateX(400px);
 
 }
 
-.index-product-img.active{
+.product-info.active .index-product-img{ 
     opacity: 1;
     transform: translateX(0);
 }
+
+.parrafo-index{
+    opacity: 0;
+    transform: translateY(400px);
+    transition: all 1s ease;
+}
+
+.product-info.active .parrafo-index{
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 @media screen and (max-width: 1200px){
     .product-info{
@@ -519,67 +594,3 @@ footer svg{
 
 /* fin preloader */
 
-/* nav responsive */
-.toggle-button{
-    position: absolute;
-    top: 0.75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 45px;
-    height: 51px;
-}
-
-.toggle-button .bar{
-    height: 2em;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
-}
-
-@media (max-width:800px) {
-    .toggle-button{
-        display: flex;
-    }
-
-    .navbar-links{
-        display: none;
-        width: 100%;
-        position: absolute;
-        background-color: #000;
-        top:6em;
-        right:0;
-        bottom:0;
-        right:0;
-        height: 800vh; 
-    }
-
-    .navbar{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .navbar-links ul{
-        width: 100%; 
-        flex-direction: column;
-    }
-
-    .navbar-links li{
-        text-align: center;
-    }
-
-    .navbar-links li a{
-        padding: 5rem 1rem;
-    }
-
-    .navbar-links.active{
-        display: flex;
-    } 
-
-    .cafe-logo{
-        display: block;
-}
-}
-
-/* fin nav responsive */
